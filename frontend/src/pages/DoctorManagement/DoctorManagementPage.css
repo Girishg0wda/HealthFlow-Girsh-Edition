@@ -1,0 +1,128 @@
+.doctor-page {
+  padding: 30px;
+  font-family: "outfit";
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+.page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-toggle,
+.filter-toggle {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.day-toggle-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.day-toggle {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.day-toggle.active {
+  background-color: #5d5d9e;
+  color: white;
+  border-color: #2980b9;
+}
+
+
+.doctor-form,
+.filter-form {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.doctor-form input,
+.doctor-form select,
+.filter-form input,
+.filter-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.doctor-form button,
+.filter-form button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.section-title {
+  color: #34495e;
+  margin-top: 30px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 15px;
+}
+
+.doctor-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.doctor-card {
+  background: white;
+  border-left: 5px solid #3498db;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-left: -27%;
+  margin-right: -27%;
+}
+
+.doctor-card button {
+  margin-top: 10px;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.schedule {
+    font-family: "outfit";
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 6px;
+}
+
+.status.green {
+  color: green;
+}
+
+.status.orange {
+  color: orange;
+}
+
+.status.red {
+  color: red;
+}
